@@ -1,58 +1,251 @@
-# LeetCode Solutions - ML Interview Prep
+# LeetCode Solutions - ML Interview Preparation
 
-## Progress Tracker
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white)
 
-**Total Solved**: 0/150
-- Easy: 0/50
-- Medium: 0/75
-- Hard: 0/25
+## 📊 Progress Tracker
 
-## Daily Log
+**Total Solved**: 3/150  
+**Current Streak**: 1 day 🔥
 
-### Week 1
-- **Day 1** (Feb 12): Two Sum, Valid Anagram, Contains Duplicate
-- **Day 2** (Feb 13): [Problems]
-- **Day 3** (Feb 14): [Problems]
+| Difficulty | Target | Solved | Progress |
+|-----------|--------|--------|----------|
+| Easy | 50 | 3 | ▓░░░░░░░░░ 6% |
+| Medium | 75 | 0 | ░░░░░░░░░░ 0% |
+| Hard | 25 | 0 | ░░░░░░░░░░ 0% |
 
-## Topics Covered
-- [ ] Arrays & Hashing (20 problems)
-- [ ] Two Pointers (15 problems)
-- [ ] Sliding Window (10 problems)
-- [ ] Stack (10 problems)
-- [ ] Binary Search (15 problems)
-- [ ] Linked List (15 problems)
-- [ ] Trees (20 problems)
-- [ ] Dynamic Programming (25 problems)
-- [ ] Graphs (20 problems)
-
-## Study Plan
-
-**Week 1-2**: Arrays, Hashing, Two Pointers
-**Week 3-4**: Stack, Binary Search, Linked List
-**Week 5-6**: Trees, Graphs
-**Week 7-8**: Dynamic Programming
-**Week 9-12**: Mixed practice + mock interviews
-
-## Pattern Recognition
-
-### 1. Hash Maps
-Problems: Two Sum, Valid Anagram, Group Anagrams
-Pattern: Trade space for O(1) lookup
-
-### 2. Two Pointers
-Problems: [List as you solve]
-Pattern: [Describe]
-
-[Continue for each pattern]
-
-## Interview Tips
-1. Always clarify problem first
-2. Discuss brute force before optimizing
-3. Mention time and space complexity
-4. Test with edge cases
-5. Clean, readable code
+**Last Updated**: February 14, 2026
 
 ---
 
-**Target**: 150 problems in 12 weeks
-**Current Streak**: 0 days
+## 🎯 Goal
+
+Solve 150 LeetCode problems in 12 weeks to prepare for ML/Software Engineer interviews.
+
+**Timeline**: Feb 13 - May 6, 2026
+
+**Daily Target**: 2-3 problems (Easy: 2, Medium: 1)
+
+---
+
+## 🗂️ Repository Structure
+
+```
+leetcode-solutions/
+├── README.md
+├── easy/
+│   ├── two_sum.py
+│   ├── valid_anagram.py
+│   └── contains_duplicate.py
+├── medium/
+│   └── [problems here]
+├── hard/
+│   └── [problems here]
+└── patterns/
+    ├── arrays_hashing.md
+    ├── two_pointers.md
+    └── sliding_window.md
+```
+
+---
+
+## 📖 Problems by Topic
+
+### Arrays & Hashing (Target: 20)
+**Solved**: 3/20
+
+- [x] Two Sum (Easy) - Hash Map
+- [x] Valid Anagram (Easy) - Frequency Count
+- [x] Contains Duplicate (Easy) - Set
+- [ ] Group Anagrams (Medium)
+- [ ] Top K Frequent Elements (Medium)
+- [ ] Product of Array Except Self (Medium)
+- [ ] Valid Sudoku (Medium)
+- [ ] Encode and Decode Strings (Medium)
+
+### Two Pointers (Target: 15)
+**Solved**: 0/15
+
+- [ ] Valid Palindrome (Easy)
+- [ ] Two Sum II (Easy)
+- [ ] 3Sum (Medium)
+- [ ] Container With Most Water (Medium)
+- [ ] Trapping Rain Water (Hard)
+
+### Sliding Window (Target: 10)
+**Solved**: 0/10
+
+- [ ] Best Time to Buy and Sell Stock (Easy)
+- [ ] Longest Substring Without Repeating Characters (Medium)
+- [ ] Longest Repeating Character Replacement (Medium)
+- [ ] Minimum Window Substring (Hard)
+
+### Stack (Target: 10)
+**Solved**: 0/10
+
+- [ ] Valid Parentheses (Easy)
+- [ ] Min Stack (Medium)
+- [ ] Evaluate Reverse Polish Notation (Medium)
+- [ ] Daily Temperatures (Medium)
+
+### Binary Search (Target: 15)
+**Solved**: 0/15
+
+### Linked List (Target: 15)
+**Solved**: 0/15
+
+### Trees (Target: 20)
+**Solved**: 0/20
+
+### Dynamic Programming (Target: 25)
+**Solved**: 0/25
+
+### Graphs (Target: 20)
+**Solved**: 0/20
+
+---
+
+## 🧠 Pattern Recognition
+
+### Pattern 1: Hash Maps for O(1) Lookup
+**Problems**: Two Sum, Valid Anagram, Group Anagrams
+
+**When to use**:
+- Need to find pairs/complements
+- Frequency counting
+- Fast lookups
+
+**Template**:
+```python
+def solve(arr):
+    seen = {}  # or set()
+    for item in arr:
+        # Check if complement/target in seen
+        if target in seen:
+            return result
+        seen[item] = value
+```
+
+**Key Learning**: Trade space (O(n)) for time (O(1) lookup)
+
+---
+
+### Pattern 2: Set for Uniqueness
+**Problems**: Contains Duplicate
+
+**When to use**:
+- Check for duplicates
+- Unique elements only
+
+**Template**:
+```python
+def solve(arr):
+    return len(arr) != len(set(arr))  # Simple check
+```
+
+---
+
+### Pattern 3: Frequency Counting
+**Problems**: Valid Anagram
+
+**When to use**:
+- Character/element frequency matters
+- Comparing distributions
+
+**Template**:
+```python
+from collections import Counter
+def solve(s1, s2):
+    return Counter(s1) == Counter(s2)
+```
+
+### Contains Duplicate
+**Difficulty**: Easy  
+**Topics**: Array, Hash Set  
+**Time Complexity**: O(n)  
+**Space Complexity**: O(n)
+
+**Approach**: Convert to set and compare lengths.
+
+[View Solution](./easy/contains_duplicate.py)
+
+---
+
+## 🎯 Study Plan
+
+### Week 1-2: Arrays & Hashing
+- Master hash map patterns
+- Frequency counting
+- Set operations
+
+### Week 3-4: Two Pointers & Sliding Window
+- Learn pointer manipulation
+- Window optimization
+- Subarray problems
+
+### Week 5-6: Stack & Binary Search
+- Stack-based problems
+- Binary search variants
+
+### Week 7-8: Linked Lists & Trees
+- Pointer manipulation
+- Tree traversals
+- Recursion
+
+### Week 9-10: Dynamic Programming
+- Memoization
+- Tabulation
+- Common DP patterns
+
+### Week 11-12: Graphs & Mixed Practice
+- Graph algorithms
+- Review all patterns
+- Mock interviews
+
+---
+
+## 📝 Interview Tips
+
+### Before Coding
+1. **Clarify**: Ask about constraints, edge cases
+2. **Examples**: Work through 2-3 examples manually
+3. **Approach**: Explain your strategy before coding
+4. **Complexity**: Mention expected time/space complexity
+
+### While Coding
+1. **Think aloud**: Explain your thought process
+2. **Clean code**: Use meaningful variable names
+3. **Test**: Walk through your code with test case
+4. **Edge cases**: Handle empty input, single element, etc.
+
+### After Coding
+1. **Dry run**: Trace through with example
+2. **Optimize**: Can you improve time/space?
+3. **Trade-offs**: Discuss different approaches
+
+---
+
+## 🔗 Resources
+
+- [LeetCode](https://leetcode.com)
+- [NeetCode Roadmap](https://neetcode.io/roadmap)
+- [Grind 75](https://www.techinterviewhandbook.org/grind75)
+
+---
+
+## 🏆 Milestones
+
+- [ ] First 10 problems
+- [ ] First 25 problems
+- [ ] First 50 problems
+- [ ] First Medium problem
+- [ ] 10 Medium problems
+- [ ] First Hard problem
+- [ ] 100 problems total
+- [ ] 150 problems total ✅
+
+---
+
+**Author**: Aatif Khan Pathan  
+**Start Date**: February 13, 2026  
+**Target Completion**: May 6, 2026  
