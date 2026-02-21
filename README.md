@@ -5,13 +5,13 @@
 
 ## 📊 Progress Tracker
 
-**Total Solved**: 5/150  
-**Current Streak**: 2 day 🔥
+**Total Solved**: 8/150  
+**Current Streak**: 3 day 🔥
 
 | Difficulty | Target | Solved | Progress |
 |-----------|--------|--------|----------|
 | Easy | 50 | 4 | ▓░░░░░░░░░ 8% |
-| Medium | 75 | 1 | ░░░░░░░░░░ 1% |
+| Medium | 75 | 4 | ▓░░░░░░░░░ 5% |
 | Hard | 25 | 0 | ░░░░░░░░░░ 0% |
 
 **Last Updated**: February 18, 2026
@@ -52,13 +52,13 @@ leetcode-solutions/
 ## 📖 Problems by Topic
 
 ### Arrays & Hashing (Target: 20)
-**Solved**: 5/20
+**Solved**: 6/20
 
 - [x] Two Sum (Easy) - Hash Map
 - [x] Valid Anagram (Easy) - Frequency Count
 - [x] Contains Duplicate (Easy) - Set
-- [ ] Group Anagrams (Medium)
-- [ ] Top K Frequent Elements (Medium)
+- [x] Group Anagrams (Medium)
+- [x] Top K Frequent Elements (Medium)
 - [x] Product of Array Except Self (Medium)
 - [ ] Valid Sudoku (Medium)
 - [ ] Encode and Decode Strings (Medium)
@@ -73,10 +73,10 @@ leetcode-solutions/
 - [ ] Trapping Rain Water (Hard)
 
 ### Sliding Window (Target: 10)
-**Solved**: 1/10
+**Solved**: 2/10
 
 - [x] Best Time to Buy and Sell Stock (Easy)
-- [ ] Longest Substring Without Repeating Characters (Medium)
+- [x] Longest Substring Without Repeating Characters (Medium)
 - [ ] Longest Repeating Character Replacement (Medium)
 - [ ] Minimum Window Substring (Hard)
 
@@ -176,7 +176,7 @@ leetcode-solutions/
 - [ ] 10 Medium problems
 - [ ] First Hard problem
 - [ ] 100 problems total
-- [ ] 150 problems total ✅
+- [ ] 150 problems total 
 
 ---
 
