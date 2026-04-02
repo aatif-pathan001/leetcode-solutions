@@ -11,7 +11,7 @@
 | Difficulty | Target | Solved | Progress |
 |-----------|--------|--------|----------|
 | Easy | 50 | 4 | ▓░░░░░░░░░ 8% |
-| Medium | 75 | 4 | ▓░░░░░░░░░ 5% |
+| Medium | 75 | 5 | ▓░░░░░░░░░ 5% |
 | Hard | 25 | 0 | ░░░░░░░░░░ 0% |
 
 **Last Updated**: February 18, 2026
@@ -28,31 +28,10 @@ Solve 150 LeetCode problems in 12 weeks to prepare for ML/Software Engineer inte
 
 ---
 
-## 🗂️ Repository Structure
-
-```
-leetcode-solutions/
-├── README.md
-├── easy/
-│   ├── two_sum.py
-│   ├── valid_anagram.py
-│   └── contains_duplicate.py
-├── medium/
-│   └── [problems here]
-├── hard/
-│   └── [problems here]
-└── patterns/
-    ├── arrays_hashing.md
-    ├── two_pointers.md
-    └── sliding_window.md
-```
-
----
-
 ## 📖 Problems by Topic
 
 ### Arrays & Hashing (Target: 20)
-**Solved**: 6/20
+**Solved**: 7/20
 
 - [x] Two Sum (Easy) - Hash Map
 - [x] Valid Anagram (Easy) - Frequency Count
@@ -60,7 +39,7 @@ leetcode-solutions/
 - [x] Group Anagrams (Medium)
 - [x] Top K Frequent Elements (Medium)
 - [x] Product of Array Except Self (Medium)
-- [ ] Valid Sudoku (Medium)
+- [x] Valid Sudoku (Medium)
 - [ ] Encode and Decode Strings (Medium)
 
 ### Two Pointers (Target: 15)
@@ -103,38 +82,6 @@ leetcode-solutions/
 ### Graphs (Target: 20)
 **Solved**: 0/20
 
----
-
-## 🎯 Study Plan
-
-### Week 1-2: Arrays & Hashing
-- Master hash map patterns
-- Frequency counting
-- Set operations
-
-### Week 3-4: Two Pointers & Sliding Window
-- Learn pointer manipulation
-- Window optimization
-- Subarray problems
-
-### Week 5-6: Stack & Binary Search
-- Stack-based problems
-- Binary search variants
-
-### Week 7-8: Linked Lists & Trees
-- Pointer manipulation
-- Tree traversals
-- Recursion
-
-### Week 9-10: Dynamic Programming
-- Memoization
-- Tabulation
-- Common DP patterns
-
-### Week 11-12: Graphs & Mixed Practice
-- Graph algorithms
-- Review all patterns
-- Mock interviews
 
 ---
 
